@@ -33,7 +33,7 @@ def main():
         client.publish(TOPIC, mensaje)
         print(f"Mensaje enviado: {mensaje}")
 
-        time.sleep(1)  # Espera 1 segundo antes de enviar otro mensaje
+        time.sleep(3)  # Espera 1 segundo antes de enviar otro mensaje
 
 # Ejecutar el script solo si es el archivo principal
 if __name__ == "__main__":
